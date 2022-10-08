@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <link rel="stylesheet" href="css/styles.css">    
+    <script src="js/script.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+    </style>
+</head>
+<body class="imagen_principal">  
+    <header>            
+        <ul class="menu">
+            <li><a class="menuItem" href="index.html">Home</a></li>
+            <li><a class="menuItem" href="personajes.html">Personajes</a></li>
+            <li><a class="menuItem" href="historia.html">Historia</a></li>
+            <li><a class="menuItem" href="contacto.html">Contacto</a></li>
+        </ul>
+        <button class="hamburger">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+        </button>
+    </header>  
+    <main class="completo">
+        <section class="contenedor_oscuro">
+            <div class="container-form">
+                <h1>Formulario de contacto</h1>
+                <h3>Escribenos y en breve nos pondremos en contacto contigo</h3>
+                <form action="">
+                    <label for="name">Nombre<div class="ast">*</div></label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email">Email<div class="ast">*</div></label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="asunto">Asunto<div class="ast">*</div></label>
+                    <input type="text" name="asunto" id="asunto" required>
+                    <label for="mensaje">Mensaje<div class="ast">*</div></label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+                                    
+                    <input type="submit" value="Enviar">
+
+                    <label for="mensaje"><div class="ast">*</div> los campos son obligatorios</label>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+</html>
